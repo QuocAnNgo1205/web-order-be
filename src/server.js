@@ -2,8 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import Food from './models/food.js';
-import e from 'cors';
+import Food from './modules/food/food.model.js';
 
 dotenv.config();
 
